@@ -20,9 +20,9 @@ namespace MagneticFieldSimulator.Core
             Field = new Vector[height, width];
         }
 
-        public void AddMagnet(SolenoidParams @params, Point coordinates)
+        public void AddMagnet(SolenoidParams @params, Point coordinates, double rotation = 0)
         {
-            Solenoids.Add(new Solenoid(@params, coordinates));
+            Solenoids.Add(new Solenoid(@params, coordinates, rotation));
         }
 
         public void Calculation()

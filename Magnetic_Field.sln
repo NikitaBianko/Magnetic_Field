@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Magnetic_Field", "Magnetic_
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MagneticFieldSimulator.Core", "Magnet\MagneticFieldSimulator.Core.csproj", "{079704F3-78E7-4EF8-9C2D-1663FBA17704}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Magnetic_Line_Drawer", "Magnetic_Line_Drawer\Magnetic_Line_Drawer.csproj", "{6989B07A-E5F6-4A85-9AFD-D6321903A1F9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{079704F3-78E7-4EF8-9C2D-1663FBA17704}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{079704F3-78E7-4EF8-9C2D-1663FBA17704}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{079704F3-78E7-4EF8-9C2D-1663FBA17704}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6989B07A-E5F6-4A85-9AFD-D6321903A1F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6989B07A-E5F6-4A85-9AFD-D6321903A1F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6989B07A-E5F6-4A85-9AFD-D6321903A1F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6989B07A-E5F6-4A85-9AFD-D6321903A1F9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
