@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MagneticFieldSimulator.Core
 {
-    internal class Сonductor
+    public class Сonductor
     {
         public readonly Point Position;
         public readonly bool IsReverse;

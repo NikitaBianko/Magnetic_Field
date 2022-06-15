@@ -5,12 +5,23 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Magnetic_Line_Drawer"
         mc:Ignorable="d"
-        Title="MainWindow" Height="1000" Width="1000">
+        Title="MainWindow" Height="1030" Width="1250">
     <Grid>
 
-        <Canvas Background="Lavender" Height="1000" Width="1000" x:Name="canvas">
-            
-        </Canvas>
-        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="100"/>
+        </Grid.ColumnDefinitions>
+
+        <Canvas Grid.Column="0" Background="Lavender" Height="1000" Width="1000" x:Name="canvas" />
+        <Grid Grid.Column="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto"/>
+                <RowDefinition />
+                <RowDefinition Height="auto"/>
+            </Grid.RowDefinitions>
+
+            <Button Grid.Row="2" x:Name="RunSimulationBtn" Click="RunSimulationBtn_Click">Run Simulation</Button>
+        </Grid>
     </Grid>
 </Window>
